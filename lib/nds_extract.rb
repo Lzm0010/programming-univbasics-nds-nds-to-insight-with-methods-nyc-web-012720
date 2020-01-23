@@ -28,9 +28,9 @@ def directors_totals(nds)
     director = nds[director_index]
     
     director_name = director[:name]
+    revenue_total = gross_for_director(director)
     
-    
-    result[director] = revenue_total
+    result[director_name] = revenue_total
     
     director_index += 1
   end
