@@ -26,6 +26,7 @@ def directors_totals(nds)
   while director_index < nds.length do
     director = nds[director_index]
     
+    ## KEY VALUE PAIR TO INSERT INTO HASH
     director_name = director[:name]
     revenue_total = gross_for_director(director)
     
