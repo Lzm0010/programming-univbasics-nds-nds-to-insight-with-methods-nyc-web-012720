@@ -16,6 +16,9 @@ def directors_totals(nds)
   #array(nds) of hash (director) of array (movies) of hashes (movie properties)
   
   director_index = 0
-  nds
+  while director_index < nds.length do
+    
+    director_index += 1
+  end
   
 end
