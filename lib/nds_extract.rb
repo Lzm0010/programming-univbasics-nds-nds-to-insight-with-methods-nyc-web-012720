@@ -15,5 +15,7 @@ def directors_totals(nds)
   result = {}
   #array(nds) of hash (director) of array (movies) of hashes (movie properties)
   
+  director_index = 0
   nds
+  
 end
