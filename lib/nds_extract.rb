@@ -14,5 +14,4 @@ end
 def directors_totals(nds)
   result = {}
   pp nds
-  while 
 end
