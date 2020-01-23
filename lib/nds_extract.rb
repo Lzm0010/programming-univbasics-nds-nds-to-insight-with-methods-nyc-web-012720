@@ -19,6 +19,7 @@ def directors_totals(nds)
   while director_index < nds.length do
     director = nds[director_index][:name]
     
+    movie_index = 0
     revenue_total = 0
     while 
     
