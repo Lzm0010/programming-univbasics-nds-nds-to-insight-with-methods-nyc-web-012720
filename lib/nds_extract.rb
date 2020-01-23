@@ -26,7 +26,7 @@ def directors_totals(nds)
       revenue_total += nds[director_index][:movies][movie_index][:worldwide_gross]
       movie_index += 1
     end
-    result[director] = 
+    result[director] = revenue_total
     
     director_index += 1
   end
