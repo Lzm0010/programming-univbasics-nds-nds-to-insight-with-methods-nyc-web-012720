@@ -13,5 +13,7 @@ end
 # { directorOne => allTheMoneyTheyMade, ... }
 def directors_totals(nds)
   result = {}
-  pp nds
+  #array(nds) of hash (director) of array (movies) of hashes (movie properties)
+  
+  nds
 end
